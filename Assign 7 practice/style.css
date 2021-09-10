@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   flex-direction: column;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+background-image: url('https://images.unsplash.com/photo-1606318175549-0aea385d8080?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+
+}
+
+form{
+    border-radius: 20px;
+   margin:0px auto;
+   height:50vh;
+   width: 25vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:2px solid black;
+
+    flex-direction: column;
+}
+input,button{
+    width:80%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: grey;
+    color:white;
+}
+input:focus{
+    outline: none;
+}
+input{
+    background-color: #ade8f4;
+}
+#result
+{
+    margin-top:10px;
+    height:60%;
+    width:80%;
+    text-align: center;
+    background-color:#0077b6 ;
+    color:#ade8f4;
+}
+input:hover::placeholder {
+    background-color: #03045e;
+    color:white;
+}
+.fa-snowflake
+{
+    color:blueviolet;
+   
+}
+
+footer{
+    bottom: 0px;
+    position: fixed;
+    background-color: rgba(13, 85, 145, 0.384);
+    width:100%;
+    height:13vh;
+    text-align: center;
+    color:#ccc;
+    
+ 
+}
+footer h2{
+    margin-top: 20px;
+}
